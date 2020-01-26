@@ -6,6 +6,6 @@
              mc:Ignorable="d"
              x:Class="Capacitacion.App">
     <Application.Resources>
-
+        <Color x:Key="MainColor">LightBlue</Color>
     </Application.Resources>
 </Application>
