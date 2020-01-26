@@ -11,7 +11,8 @@ namespace Capacitacion.ViewModels
             MenuItems = new ObservableCollection<Models.MenuItem>(new[]
             {
                 new Models.MenuItem { Titulo = "Calculadora" },
-                new Models.MenuItem { Titulo = "Comidas Favoritas" }
+                new Models.MenuItem { Titulo = "Comidas Favoritas" },
+                new Models.MenuItem { Titulo = "Contenedores" }
             });
         }
 

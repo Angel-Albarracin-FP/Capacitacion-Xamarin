@@ -26,6 +26,9 @@ namespace Capacitacion
                 case "Comidas Favoritas":
                     Detail = new NavigationPage(new ComidasFavoritasPage());
                     break;
+                case "Contenedores":
+                    Detail = new NavigationPage(new ContenedoresPage());
+                    break;
                 default:
                     break;
             }
