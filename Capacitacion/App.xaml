@@ -7,5 +7,9 @@
              x:Class="Capacitacion.App">
     <Application.Resources>
         <Color x:Key="MainColor">LightBlue</Color>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="{StaticResource MainColor}"/>
+            <Setter Property="TextColor" Value="Red"/>
+        </Style>
     </Application.Resources>
 </Application>

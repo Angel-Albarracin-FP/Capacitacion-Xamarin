@@ -26,8 +26,10 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Text="Agregar"
+        <!--<Button Text="Fake Button"
                 BackgroundColor="{StaticResource MainColor}"
+                Command="{Binding AddComida}"/>-->
+        <Button Text="Agregar"
                 Command="{Binding AddComida}"/>
     </StackLayout>
 </ContentPage>
