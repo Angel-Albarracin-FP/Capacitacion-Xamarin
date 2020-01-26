@@ -11,5 +11,12 @@
             <Setter Property="BackgroundColor" Value="{StaticResource MainColor}"/>
             <Setter Property="TextColor" Value="Red"/>
         </Style>
+        <Style TargetType="Entry">
+            <Style.Triggers>
+                <Trigger TargetType="Entry" Property="IsFocused" Value="True">
+                    <Setter Property="BackgroundColor" Value="Yellow"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
     </Application.Resources>
 </Application>
