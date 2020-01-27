@@ -3,7 +3,7 @@ using Xamarin.Forms;
 
 namespace Capacitacion.ViewModels
 {
-    public class VMCalculadora : VMBase
+    public class VMCalculadora : NotificationObject
     {
         public VMCalculadora()
         {
