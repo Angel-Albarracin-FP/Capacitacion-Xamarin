@@ -18,7 +18,7 @@ namespace Capacitacion.ViewModels
 		public decimal NumeroUno
 		{
 			get { return numeroUno; }
-			set { numeroUno = value; OnPropertyChanged(nameof(NumeroUno)); }
+			set { numeroUno = value; OnPropertyChanged(); }
 		}
 
 		private decimal numeroDos;
@@ -26,7 +26,7 @@ namespace Capacitacion.ViewModels
 		public decimal NumeroDos
 		{
 			get { return numeroDos; }
-			set { numeroDos = value; OnPropertyChanged(nameof(NumeroDos)); }
+			set { numeroDos = value; OnPropertyChanged(); }
 		}
 
 		private decimal resultado;
@@ -34,7 +34,7 @@ namespace Capacitacion.ViewModels
 		public decimal Resultado
 		{
 			get { return resultado; }
-			set { resultado = value; OnPropertyChanged(nameof(Resultado)); }
+			set { resultado = value; OnPropertyChanged(); }
 		}
 
 		public ICommand Sumar { get; set; }

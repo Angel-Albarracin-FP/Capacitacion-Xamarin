@@ -8,9 +8,16 @@ using Xamarin.Forms;
 
 namespace Capacitacion.ViewModels
 {
-    class VMComidasFavoritas
+    class VMComidasFavoritas : NotificationObject
     {
-		public ObservableCollection<ComidaFavorita> ComidasFavoritas { get; set; }
+		private ObservableCollection<ComidaFavorita> comidasFavoritas;
+
+		public ObservableCollection<ComidaFavorita> ComidasFavoritas
+		{
+			get { return comidasFavoritas; }
+			set { comidasFavoritas = value; OnPropertyChanged(); }
+		}
+
 
 		public ICommand AddComida { get; set; }
 

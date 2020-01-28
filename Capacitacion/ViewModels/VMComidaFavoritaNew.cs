@@ -4,14 +4,14 @@ using Xamarin.Forms;
 
 namespace Capacitacion.ViewModels
 {
-    class VMComidaFavoritaNew : VMBase
+    class VMComidaFavoritaNew : NotificationObject
     {
 		private string nombre;
 
 		public string Nombre
 		{
 			get { return nombre; }
-			set { nombre = value; OnPropertyChanged(nameof(Nombre)); }
+			set { nombre = value; OnPropertyChanged(); }
 		}
 
 		private string comida;
@@ -19,7 +19,7 @@ namespace Capacitacion.ViewModels
 		public string Comida
 		{
 			get { return comida; }
-			set { comida = value; OnPropertyChanged(nameof(Comida)); }
+			set { comida = value; OnPropertyChanged(); }
 		}
 
 		public ICommand Save { get; set; }
