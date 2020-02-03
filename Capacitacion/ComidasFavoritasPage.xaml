@@ -14,7 +14,7 @@
     <StackLayout>
         <ListView ItemsSource="{Binding ComidasFavoritas}"
                   SelectionMode="None"
-                  RowHeight="50">
+                  HasUnevenRows="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
