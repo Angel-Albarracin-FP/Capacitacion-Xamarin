@@ -1,18 +1,19 @@
-﻿using System.Collections.ObjectModel;
+﻿using Capacitacion.Models;
+using System.Collections.ObjectModel;
 
 namespace Capacitacion.ViewModels
 {
     class VMMenuLateral
     {
-        public ObservableCollection<Models.MenuItem> MenuItems { get; set; }
+        public ObservableCollection<MenuItem> MenuItems { get; set; }
 
         public VMMenuLateral()
         {
-            MenuItems = new ObservableCollection<Models.MenuItem>(new[]
+            MenuItems = new ObservableCollection<MenuItem>(new[]
             {
-                new Models.MenuItem { Titulo = "Calculadora" },
-                new Models.MenuItem { Titulo = "Comidas Favoritas" },
-                new Models.MenuItem { Titulo = "Contenedores" }
+                new MenuItem { Titulo = "Calculadora" },
+                new MenuItem { Titulo = "Comidas Favoritas" },
+                new MenuItem { Titulo = "Contenedores" }
             });
         }
 

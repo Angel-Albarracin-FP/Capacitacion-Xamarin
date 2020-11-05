@@ -1,8 +1,5 @@
 ﻿using Capacitacion.Models;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
@@ -17,7 +14,6 @@ namespace Capacitacion.ViewModels
 			get { return comidasFavoritas; }
 			set { comidasFavoritas = value; OnPropertyChanged(); }
 		}
-
 
 		public ICommand AddComida { get; set; }
 

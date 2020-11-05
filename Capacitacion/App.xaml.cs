@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace Capacitacion
 {
@@ -11,6 +9,7 @@ namespace Capacitacion
             InitializeComponent();
 
             MainPage = new MasterPageDetail();
+            //MainPage = new NavigationPage(new ComidasFavoritasPage());
         }
 
         protected override void OnStart()
