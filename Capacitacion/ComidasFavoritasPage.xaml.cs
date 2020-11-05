@@ -1,11 +1,5 @@
-﻿using Capacitacion.Models;
-using Capacitacion.ViewModels;
-using System;
-using System.Collections.Generic;
+﻿using Capacitacion.ViewModels;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Capacitacion
